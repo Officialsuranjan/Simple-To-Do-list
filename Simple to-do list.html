@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>susmita</title>
+    <style>
+        /* Ensure the body fills the entire screen */
+        
+        .parent {
+            display: flex;
+            justify-content: center; /* Horizontal center */
+            align-items: center; /* Vertical center */
+            height: 100vh;
+        }
+
+        .Container{
+            background-color:pink;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 20px;
+            width: 300px;
+            padding: 20px;
+            justify-content: center;
+            align-items: center;
+        }
+        body{
+            background-color:pink;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="parent">
+        <div class="Container">
+            <h2>Simple To-Do List</h2>
+            <ul>
+                <li>
+                    <input type="checkbox" id="task1">
+                    <label for="task1">Learn new words</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="task2">
+                    <label for="task2">HTML Practice</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="task3">
+                    <label for="task3">Talk to Maa</label>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
